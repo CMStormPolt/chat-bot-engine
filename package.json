@@ -1,0 +1,36 @@
+{
+  "name": "me2-chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "deepmerge": "^2.0.1",
+    "dotenv": "^4.0.0",
+    "hapi": "^16.6.2",
+    "hapi-require-https": "^2.1.0",
+    "install": "^0.10.2",
+    "joi": "^13.0.2",
+    "moment": "^2.19.2",
+    "npm": "^5.6.0",
+    "numeral": "^2.0.6",
+    "request": "^2.83.0",
+    "set-value": "^2.0.0",
+    "viber-bot": "^1.0.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/bulpros-consulting/me2-chatbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/bulpros-consulting/me2-chatbot/issues"
+  },
+  "homepage": "https://gitlab.com/bulpros-consulting/me2-chatbot#README"
+}
